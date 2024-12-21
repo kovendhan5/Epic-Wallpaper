@@ -1,5 +1,6 @@
 import React from 'react';
 import BackToTop from './components/BackToTop';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -10,6 +11,7 @@ const App = () => {
     <div className="app-container">
       <Navbar />
       <Home />
+      <ContactForm />
       <Footer />
       <BackToTop />
     </div>
