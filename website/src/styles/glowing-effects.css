@@ -1,0 +1,20 @@
+.navbar, .footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar-title {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.wallpaper-item img {
+    border: 2px solid #0f0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.wallpaper-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0f0, 0 0 30px #0f0;
+}
