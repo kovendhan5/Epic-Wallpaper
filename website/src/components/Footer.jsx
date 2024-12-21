@@ -1,12 +1,12 @@
-import React from "react";
-import './Footer.css';
+import React from 'react';
+import '../styles/Footer.css';
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            <p>&copy; 2024 Wallpaper Downloader</p>
-        </footer>
-    );
+  return (
+    <footer>
+      <p>&copy; 2023 Epic Wallpaper. All rights reserved.</p>
+    </footer>
+  );
 };
 
 export default Footer;

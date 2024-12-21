@@ -1,12 +1,18 @@
 .wallpaper-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
+    gap: 10px;
+    padding: 20px;
 }
 
 .wallpaper-item {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wallpaper-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
