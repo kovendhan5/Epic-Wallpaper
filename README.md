@@ -69,7 +69,7 @@ Favorites Section: Allow users to save and view their liked wallpapers.
 Advanced Filters: Add options for resolution, category, and popularity.
 Dark Mode Enhancements: Allow users to toggle between different glow colors.
 
-# Contributing
+## Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
@@ -87,5 +87,5 @@ git push origin feature-name
 ```
 Open a Pull Request.
 
-# License
+## License
 This project is licensed under the MIT License.
