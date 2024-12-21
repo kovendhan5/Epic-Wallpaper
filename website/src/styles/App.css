@@ -1,0 +1,16 @@
+/* filepath: /k:/Epic Wallpaper/Epic-Wallpaper/website/src/styles/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
