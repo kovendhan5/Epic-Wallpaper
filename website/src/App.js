@@ -1,4 +1,5 @@
 import React from 'react';
+import BackToTop from './components/BackToTop';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Footer />
+      <BackToTop />
     </div>
   );
 };
