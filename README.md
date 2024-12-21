@@ -63,7 +63,7 @@ src/
 ├── App.jsx
 ├── index.js
 ```
-*Future Enhancements*
+***Future Enhancements*** <br>
 Dynamic Wallpaper API Integration: Fetch wallpapers from platforms like Unsplash or Pexels.
 Favorites Section: Allow users to save and view their liked wallpapers.
 Advanced Filters: Add options for resolution, category, and popularity.
@@ -87,5 +87,5 @@ git push origin feature-name
 ```
 Open a Pull Request.
 
-#License
+**License**
 This project is licensed under the MIT License.
