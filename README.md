@@ -13,8 +13,8 @@ A sleek and modern single-page application (SPA) for downloading wallpapers. Bui
 
 ## Demo
 
-![Website Preview](https://via.placeholder.com/800x400)  
-_Screenshot or GIF of the website goes here._
+![Website Preview]([https://via.placeholder.com/800x400](https://4kwallpapers.com/images/walls/thumbs_2t/19966.png))  
+
 
 ## Tech Stack
 
