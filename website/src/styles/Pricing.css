@@ -1,0 +1,33 @@
+.pricing-section {
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .pricing-section h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .pricing-section p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .pricing-section button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pricing-section button:hover {
+    background-color: #0ff;
+  }
