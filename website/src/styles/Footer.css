@@ -1,13 +1,13 @@
 .footer {
-    box-shadow: 0 0 15px #ff0, 0 0 30px #ff0;
+    box-shadow: 0 0 0 #ff0, 0 0 0 #ff0;
 }
 
 footer {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
+
+  position: end;
+  width: 100;
   bottom: 0;
 }

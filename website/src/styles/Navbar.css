@@ -6,8 +6,10 @@
 }
 
 nav {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  backdrop-filter: blur(10px);     /* Glassmorphism effect */
+  /* Transparent background with subtle blur */
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  color: white;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -16,12 +18,18 @@ nav {
 }
 
 nav:hover {
-  background: rgba(0, 0, 0, 0.7); /* Darker on hover */
+  /* Slightly darker on hover */
+  background: rgba(0, 0, 0, 0.6);
   box-shadow: 0 4px 20px rgba(0, 255, 255, 0.2);
 }
 
 .nav-logo img {
-  height: 40px;
+  height: 40px; /* Adjust as needed */
+  transition: transform 0.3s ease;
+}
+
+.nav-logo img:hover {
+  transform: scale(1.1);
 }
 
 .nav-links {
@@ -57,11 +65,26 @@ nav:hover {
   width: 100%;
 }
 
+/* Active link styles */
+.nav-links a.active-link {
+  color: #0ff;
+  font-weight: bold;
+}
+
+.nav-links a.active-link::after {
+  width: 100%;
+}
+
 .menu-icon {
   display: none;
   color: #fff;
   font-size: 24px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-icon.active {
+  transform: rotate(90deg);
 }
 
 /* Mobile Styles */
