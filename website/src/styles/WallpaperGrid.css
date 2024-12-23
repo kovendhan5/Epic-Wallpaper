@@ -1,49 +1,69 @@
+.device-selector {
+  margin: 20px auto;
+  text-align: center;
+}
+
 .wallpaper-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .wallpaper-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.wallpaper-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+.wallpaper-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
-.wallpaper-grid img:hover {
-    transform: scale(1.05);
+.wallpaper-img-container {
+  overflow: hidden;
+  border-radius: 8px;
+  width: 100%;
+  max-height: 180px;
 }
 
-.wallpaper-grid h3 {
-    color: #333;
+.wallpaper-img-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
-.device-selector {
-    margin: 20px 0;
-  }
-  
-  .wallpaper-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 20px;
-  }
-  
-  .wallpaper-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-  }
-  
-  .wallpaper-grid img:hover {
-    transform: scale(1.05);
-  }
+.wallpaper-img-container:hover img {
+  transform: scale(1.05);
+}
+
+.wallpaper-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.wallpaper-actions button,
+.wallpaper-actions .download-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.wallpaper-actions button:hover,
+.wallpaper-actions .download-btn:hover {
+  background-color: #0ff;
+}
