@@ -3,6 +3,9 @@
   width: 100%;
   top: 0;
   z-index: 1000;
+  font-family: "Itim", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav {
@@ -24,7 +27,7 @@ nav:hover {
 }
 
 .nav-logo img {
-  height:70px;/* Adjust as needed */
+  height: 70px; /* Adjust as needed */
   transition: transform 0.3s ease;
   margin: 0px;
   padding: 0px;
@@ -37,7 +40,7 @@ nav:hover {
 .nav-links {
   display: flex;
   gap: 25px;
-}                         
+}
 
 .nav-links a {
   color: #fff;

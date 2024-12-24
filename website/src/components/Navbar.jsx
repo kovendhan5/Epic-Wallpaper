@@ -26,28 +26,28 @@ const Navbar = () => {
             className={activeLink === 'home' ? 'active-link' : ''}
             onClick={() => handleLinkClick('home')}
           >
-            Home
+            HOME
           </a>
           <a
             href="#gallery"
             className={activeLink === 'gallery' ? 'active-link' : ''}
             onClick={() => handleLinkClick('gallery')}
           >
-            Gallery
+            GALLERY
           </a>
           <a
             href="#pricing"
             className={activeLink === 'pricing' ? 'active-link' : ''}
             onClick={() => handleLinkClick('pricing')}
           >
-            Pricing
+            PRICING
           </a>
           <a
             href="#contact"
             className={activeLink === 'contact' ? 'active-link' : ''}
             onClick={() => handleLinkClick('contact')}
           >
-            Contact
+            CONTACT
           </a>
         </div>
         <div className={`menu-icon ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
