@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.png';
+import logo from '../assets/tlogo.png';
 import '../styles/Navbar.css';
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
