@@ -15,12 +15,14 @@
 .wallpaper-item {
   background-color: #fff;
   border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  padding: 10px;  
+  
+  box-shadow: 0 2px 12px rgba(19, 220, 247, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .wallpaper-item:hover {
@@ -63,7 +65,9 @@
   transition: background-color 0.3s ease;
 }
 
-.wallpaper-actions button:hover,
+.wallpaper-actions button:hover{
+  background-color: rgb(237, 27, 27);
+}
 .wallpaper-actions .download-btn:hover {
-  background-color: #0ff;
+  background-color: rgb(89, 233, 99);
 }
