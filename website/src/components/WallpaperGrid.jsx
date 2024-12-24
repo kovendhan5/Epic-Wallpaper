@@ -5,7 +5,7 @@ const wallpapers = [
   {
     id: 1,
     mobileUrl: '/assets/wallpaper-mobile-1.jpg',
-    laptopUrl: '/assets/wallpaper-laptop-1.jpg',
+    laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (1).jpg',
     title: 'Wallpaper 1',
   },
   {
@@ -13,6 +13,36 @@ const wallpapers = [
     mobileUrl: '/assets/wallpaper-mobile-2.jpg',
     laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (1).jpg',
     title: 'Wallpaper 2',
+  },
+  {
+    id: 3,
+    mobileUrl: '/assets/wallpaper-mobile-2.jpg',
+    laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (2).jpg',
+    title: 'Wallpaper 3',
+  },
+  {
+    id: 3,
+    mobileUrl: '/assets/wallpaper-mobile-2.jpg',
+    laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (2).jpg',
+    title: 'Wallpaper 3',
+  },
+  {
+    id: 3,
+    mobileUrl: '/assets/wallpaper-mobile-2.jpg',
+    laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (2).jpg',
+    title: 'Wallpaper 3',
+  },
+  {
+    id: 3,
+    mobileUrl: '/assets/wallpaper-mobile-2.jpg',
+    laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (2).jpg',
+    title: 'Wallpaper 3',
+  },
+  {
+    id: 3,
+    mobileUrl: '/assets/wallpaper-mobile-2.jpg',
+    laptopUrl: '/Asserts/wallpaperflare.com_wallpaper (2).jpg',
+    title: 'Wallpaper 3',
   },
   {
     id: 3,
