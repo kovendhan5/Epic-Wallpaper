@@ -21,7 +21,7 @@ const wallpapers = [
 
 function Gallery() {
   return (
-    <div className="gallery-page">
+    <div className="gallery-page" id='gallery'>
       <header className="gallery-header">
         {/* <h1 className="gallery-title">Gallery</h1> */}
         <nav className="gallery-nav">
