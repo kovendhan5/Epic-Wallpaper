@@ -5,7 +5,7 @@ A sleek and modern single-page application (SPA) for downloading wallpapers. Bui
 ## Features
 
 - **Black Theme**: The entire website has a black background with glowing neon effects for buttons, text highlights, and borders.
-- **Wallpaper Grid**: Displays a gallery of wallpapers in a grid layout.
+- **Wallpaper Grid**: Displays a gallery of wallpapers in a grid layout. 
 - **Glowing Effects**: Interactive glowing animations for buttons, headings, and hover interactions.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Favorites Section**: Users can "like" wallpapers and view their favorites.
