@@ -3,7 +3,6 @@
 A sleek and modern single-page application (SPA) for downloading wallpapers. Built with **React**, this website features a black theme with glowing neon effects, a responsive design, and an interactive UI.
 
 ## Features
-
 - **Black Theme**: The entire website has a black background with glowing neon effects for buttons, text highlights, and borders.
 - **Wallpaper Grid**: Displays a gallery of wallpapers in a grid layout. 
 - **Glowing Effects**: Interactive glowing animations for buttons, headings, and hover interactions.
